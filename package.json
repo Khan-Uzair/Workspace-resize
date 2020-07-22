@@ -1,0 +1,38 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.3.13",
+    "@svgr/rollup": "^4.3.0",
+    "babel-loader": "^8.0.6",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-url": "^2.2.1"
+  },
+  "name": "web-marketplace",
+  "main": "index.js",
+  "module": "index.es.js",
+  "dependencies": {
+    "@beans/theme": "^15.6.1",
+    "lerna": "^3.17.0",
+    "react": "^16.12.0",
+    "react-doc-generator": "^1.2.5",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "build": "lerna exec --parallel -- rollup -c \\$LERNA_ROOT_PATH/rollup.config.js",
+    "documentation": "lerna exec -- npm run documentation",
+    "storybook": "start-storybook"
+  }
+}

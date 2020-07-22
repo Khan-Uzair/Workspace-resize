@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/uzair/.nvm/versions/node/v13.11.0/bin/node /Users/uzair/.yarn/bin/yarn.js install
+
+PATH: 
+  /Users/uzair/.nvm/versions/node/v13.11.0/bin:/Users/uzair/.yarn/bin:/Users/uzair/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@beans%2ffoundation: Not found
+      at Request.params.callback [as _callback] (/Users/uzair/.yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/Users/uzair/.yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/uzair/.yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/uzair/.yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "@invent/side-bar",
+    "version": "2.11.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+      "registry": "https://nexus.ourtesco.com/repository/online-web/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@beans/foundation": "^15.6.0",
+      "@beans/grid": "^15.6.0",
+      "@beans/typography": "^15.6.0",
+      "@invent/icons": "^2.11.0",
+      "prop-types": "^15.7.2",
+      "react": "^16.12.0"
+    },
+    "gitHead": "8081888cacac2aff6ac6244813ea9030b3935174"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

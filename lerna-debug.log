@@ -1,0 +1,8 @@
+55 error Error: Command failed: git add -- packages/icons/package.json packages/icons/package-lock.json packages/Canvas/package.json packages/Canvas/package-lock.json packages/ToggleList/package.json packages/ToggleList/package-lock.json packages/Table/package.json packages/Table/package-lock.json packages/PanelHeader/package.json packages/PanelHeader/package-lock.json packages/side-bar/package.json packages/side-bar/package-lock.json packages/ResizableWrapper/package.json packages/ResizableWrapper/package-lock.json packages/OverlayPanel/package.json packages/OverlayPanel/package-lock.json packages/Panel/package.json packages/Panel/package-lock.json packages/workspace/package.json packages/workspace/package-lock.json lerna.json
+55 error The following paths are ignored by one of your .gitignore files:
+55 error packages/Table/package-lock.json
+55 error packages/ToggleList/package-lock.json
+55 error Use -f if you really want to add them.
+55 error
+55 error     at makeError (/Users/pranaykalro/Documents/Documents/repos/web-marketplace/node_modules/execa/index.js:174:9)
+55 error     at Promise.all.then.arr (/Users/pranaykalro/Documents/Documents/repos/web-marketplace/node_modules/execa/index.js:278:16)

@@ -1,0 +1,20 @@
+{
+  "name": "@invent/table",
+  "version": "2.11.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.ourtesco.com/repository/online-web/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@beans/colleague-actions-menu": "^15.7.0",
+    "@beans/icon": "^15.7.0",
+    "styled-components": "^5.1.0"
+  },
+  "gitHead": "8081888cacac2aff6ac6244813ea9030b3935174"
+}

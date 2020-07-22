@@ -1,0 +1,19 @@
+{
+    "name": "@invent/togglelist",
+    "version": "2.11.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "registry": "https://nexus.ourtesco.com/repository/online-web/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0"
+    },
+    "gitHead": "8081888cacac2aff6ac6244813ea9030b3935174"
+}
